@@ -68,8 +68,9 @@ Ask for what is missing, in one message:
 
 1. **Where you sit**: one line in this shape: "$<rate> is <position> of <N>
    published <model> rates at <C> companies in <city> (median $<m>, middle half
-   $<q1> to $<q3>, data as of <date>)." Always give the company count: one
-   large fleet can be a third of the sample.
+   $<q1> to $<q3>, data as of <date>)." Always give the company count (from the
+   `search_vehicles` answer; `price_overview` counts cars only): one large fleet
+   can be a third of the sample.
 2. **Closest competitors**: 5 to 8 listings, linked, with rate, and the
    company's published terms where it has any.
 3. **Take-home** table (only if costs were given).

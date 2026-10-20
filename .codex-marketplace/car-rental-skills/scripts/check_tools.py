@@ -28,7 +28,10 @@ NOT_TOOLS = {
     "price_rises", "most_expensive", "biggest_fleets", "most_reviewed",
     "largest_fleet", "highest_rated", "best_lamborghini", "best_rolls_royce",
     "best_miami", "best_los_angeles", "best_las_vegas", "min_price", "max_price",
-    "next_cursor",
+    "next_cursor", "plan_exotic_weekend",
+    # structured fields of get_company / search_companies (references/catalog-data.md)
+    "review_count", "price_history_recent", "as_of", "min_age", "deposit_min", "deposit_max",
+    "miles_included", "min_rental_hours", "insurance_required", "checked_at",
 }
 CALL = re.compile(r"`([a-z]+(?:_[a-z]+)+)`")
 

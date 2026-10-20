@@ -176,6 +176,7 @@ MIT. Market data by [CarRentalList](https://carrentallist.com).
 
 From the same author, for the marketing side of a rental business:
 
+- [exotic-car-rental-skills](https://github.com/sergebulaev/exotic-car-rental-skills) - for renters: find, price and compare exotic rental cars
 - [instagram-skills](https://github.com/sergebulaev/instagram-skills) - Instagram
 - [tiktok-skills](https://github.com/sergebulaev/tiktok-skills) - TikTok
 - [facebook-skills](https://github.com/sergebulaev/facebook-skills) - Facebook Pages

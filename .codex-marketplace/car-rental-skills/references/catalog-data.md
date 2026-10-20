@@ -49,6 +49,21 @@ python3 lib/carrentallist_client.py search_companies '{"city": "Miami", "state":
 If neither works (no network, no shell), say so and ask the user for the
 numbers. Do not fill the gap from memory: rental rates move every season.
 
+**Text or JSON.** The client prints the tool's text answer by default. Add
+`--json` for `get_company` and `search_companies`: the structured content holds
+fields the text leaves out (`claimed`, every `terms` field, `price_history_recent`,
+`as_of`). A connector returns both.
+
+## Published rental terms (the only ones that exist)
+
+`terms` on a company is either null (nothing published) or these fields, each
+of which can be null: `min_age`, `deposit_min`, `deposit_max`, `miles_included`
+(per day), `unlimited_miles`, `min_rental_hours`, `delivery` (`"yes"` = delivery
+offered with no fee mentioned, `"fee"` = delivery for a fee), `insurance_required`,
+plus `url` and `checked_at` (where and when it was read). There is **no per-mile
+overage price, delivery fee, tax or cancellation policy** in the catalog: those
+are always "ask the company". Terms are per company, not per car.
+
 ## Which tool answers which question
 
 | Question | Tool | Key arguments |
@@ -65,7 +80,11 @@ numbers. Do not fill the gap from memory: rental rates move every season.
 | Industry news for a post or a pitch | `search_news`, `get_news_article` | `query`, `make` |
 
 City names need their state when the name is ambiguous (`"city": "Miami",
-"state": "FL"`). Lists come in pages: pass the returned cursor (`next_cursor` in structured
+"state": "FL"`). A city search returns that city only, not its metro area
+(Beverly Hills, Orange County and Los Angeles are separate cities): when a city
+has little, widen to the state and name the cities the results come from.
+Company counts: `price_overview` returns cars, not companies; take the company
+count from the `search_vehicles` or `search_companies` answer. Lists come in pages: pass the returned cursor (`next_cursor` in structured
 content, "call again with cursor" in the text) as `cursor` for more.
 
 ## Rules for using the numbers
