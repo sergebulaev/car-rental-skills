@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.png" alt="Car Rental Skills: 8 Claude Code and Codex skills for exotic and luxury car rental businesses, with live market rates" width="900" />
+  <img src="assets/hero.png" alt="CarRentalList car rental skills for Claude and Codex: 8 skills with live published rates from independent US rental companies" width="900" />
 </p>
 
 # Car Rental Business Skills for Claude Code and Codex
