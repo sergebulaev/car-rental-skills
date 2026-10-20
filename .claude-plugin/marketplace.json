@@ -12,7 +12,7 @@
       "name": "car-rental-skills",
       "source": "./",
       "description": "8 Claude Code and Codex skills for car rental businesses: exotic, luxury and Turo pricing against live published market rates, competitor market scans, business plans, rental agreement templates, damage inspection checklists, vehicle listings, social posts and review replies. Market data from the free CarRentalList MCP server.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "Serge Bulaev",
         "url": "https://github.com/sergebulaev"

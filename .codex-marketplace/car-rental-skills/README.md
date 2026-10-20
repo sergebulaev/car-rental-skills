@@ -5,7 +5,7 @@
 # Car Rental Business Skills for Claude Code and Codex
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/sergebulaev/car-rental-skills?color=B8860B&label=release" alt="Latest release">
+  <img src="https://img.shields.io/github/v/release/sergebulaev/car-rental-skills?color=C9A96E&label=release" alt="Latest release">
   <img src="https://img.shields.io/badge/Claude_Code-Compatible-D97757?logo=anthropic&logoColor=white" alt="Claude Code Compatible">
   <img src="https://img.shields.io/badge/Codex-Compatible-111827" alt="Codex Compatible">
   <img src="https://img.shields.io/badge/Claude-Skills-8A63D2" alt="Claude Skills">
