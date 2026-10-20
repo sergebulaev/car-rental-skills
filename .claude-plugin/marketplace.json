@@ -1,0 +1,39 @@
+{
+  "name": "car-rental-skills",
+  "owner": {
+    "name": "Serge Bulaev",
+    "url": "https://github.com/sergebulaev"
+  },
+  "metadata": {
+    "description": "8 Claude Code and Codex skills for car rental businesses: exotic, luxury and Turo pricing against live published market rates, competitor market scans, business plans, rental agreement templates, damage inspection checklists, vehicle listings, social posts and review replies. Market data from the free CarRentalList MCP server."
+  },
+  "plugins": [
+    {
+      "name": "car-rental-skills",
+      "source": "./",
+      "description": "8 Claude Code and Codex skills for car rental businesses: exotic, luxury and Turo pricing against live published market rates, competitor market scans, business plans, rental agreement templates, damage inspection checklists, vehicle listings, social posts and review replies. Market data from the free CarRentalList MCP server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Serge Bulaev",
+        "url": "https://github.com/sergebulaev"
+      },
+      "homepage": "https://github.com/sergebulaev/car-rental-skills",
+      "license": "MIT",
+      "keywords": [
+        "car-rental",
+        "exotic-car-rental",
+        "luxury-car-rental",
+        "turo",
+        "rental-business",
+        "small-business",
+        "pricing",
+        "rental-agreement",
+        "claude-skills",
+        "codex-skills",
+        "agent-skills",
+        "mcp"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
