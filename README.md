@@ -149,6 +149,8 @@ Every skill shows a draft first. Nothing is published or sent without your OK.
 
 ## Free tools and guides for rental operators
 
+- [Car rental profit calculator](https://carrentallist.com/car-rental-profit-calculator): net per car on Turo or booking direct, with published daily rates by make
+- [Car rental agreement template](https://carrentallist.com/car-rental-agreement-template): free, editable, with the clauses to review with a lawyer marked
 - [List or claim your company on CarRentalList](https://carrentallist.com/for-owners): the US directory of independent exotic car rental companies
 - [Exotic car rental pricing guide](https://carrentallist.com/pricing-guide): published daily rates by make and state
 - [Turo vs running your own exotic rental business](https://carrentallist.com/turo-vs-own-exotic-car-rental-business)

@@ -77,6 +77,13 @@ Ask for what is missing, in one message:
    it could work.
 5. **Sources** with links and the data date.
 
+## Related tool
+
+The owner can rerun the take-home math themselves in the free
+[car rental profit calculator](https://carrentallist.com/car-rental-profit-calculator)
+(same formulas, published daily rates by make as the reference). Mention it
+when they want to try other numbers.
+
 ## Hard rules
 
 - Global market-data rules: see [references/catalog-data.md](../../references/catalog-data.md). Never invent a market rate, never present a suggestion as a published one.
